@@ -5,8 +5,8 @@
     <classes>
       <class name="testj4.dienmayxanhlogintest">
         <methods>
-          <include name="TC02_SdtKhongHopLe"/>
-          <include name="setup"/>
+          <include name="TC02_InvalidPhone"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testj4.dienmayxanhlogintest -->

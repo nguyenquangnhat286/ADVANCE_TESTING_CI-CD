@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-02T19:49:52 ICT" name="Default suite" finished-at="2026-03-02T19:50:35 ICT" duration-ms="42820">
+  <suite started-at="2026-03-02T22:52:21 ICT" name="Default suite" finished-at="2026-03-02T22:53:05 ICT" duration-ms="43713">
     <groups>
     </groups>
-    <test started-at="2026-03-02T19:49:52 ICT" name="Default test" finished-at="2026-03-02T19:50:35 ICT" duration-ms="42820">
+    <test started-at="2026-03-02T22:52:21 ICT" name="Default test" finished-at="2026-03-02T22:53:05 ICT" duration-ms="43713">
       <class name="testj4.dienmayxanhlogintest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:49:52 ICT" name="setUp" finished-at="2026-03-02T19:49:55 ICT" duration-ms="2956" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:21 ICT" name="setUp" finished-at="2026-03-02T22:52:25 ICT" duration-ms="3309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC01_ValidPhone()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:49:55 ICT" name="TC01_ValidPhone" finished-at="2026-03-02T19:50:02 ICT" duration-ms="7056" status="PASS">
+        <test-method signature="TC01_ValidPhone()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:25 ICT" name="TC01_ValidPhone" finished-at="2026-03-02T22:52:31 ICT" duration-ms="6555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_ValidPhone -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:02 ICT" name="tearDown" finished-at="2026-03-02T19:50:02 ICT" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:31 ICT" name="tearDown" finished-at="2026-03-02T22:52:31 ICT" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:02 ICT" name="setUp" finished-at="2026-03-02T19:50:05 ICT" duration-ms="2374" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:31 ICT" name="setUp" finished-at="2026-03-02T22:52:34 ICT" duration-ms="2709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC02_InvalidPhone()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:05 ICT" name="TC02_InvalidPhone" finished-at="2026-03-02T19:50:10 ICT" duration-ms="5850" status="PASS">
+        <test-method signature="TC02_InvalidPhone()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:34 ICT" name="TC02_InvalidPhone" finished-at="2026-03-02T22:52:40 ICT" duration-ms="5442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_InvalidPhone -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:10 ICT" name="tearDown" finished-at="2026-03-02T19:50:11 ICT" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:40 ICT" name="tearDown" finished-at="2026-03-02T22:52:40 ICT" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:11 ICT" name="setUp" finished-at="2026-03-02T19:50:13 ICT" duration-ms="2105" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:40 ICT" name="setUp" finished-at="2026-03-02T22:52:42 ICT" duration-ms="2684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC03_PhoneWithLetters()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:13 ICT" name="TC03_PhoneWithLetters" finished-at="2026-03-02T19:50:18 ICT" duration-ms="5528" status="PASS">
+        <test-method signature="TC03_PhoneWithLetters()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:42 ICT" name="TC03_PhoneWithLetters" finished-at="2026-03-02T22:52:48 ICT" duration-ms="5478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_PhoneWithLetters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:18 ICT" name="tearDown" finished-at="2026-03-02T19:50:18 ICT" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:48 ICT" name="tearDown" finished-at="2026-03-02T22:52:48 ICT" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:18 ICT" name="setUp" finished-at="2026-03-02T19:50:21 ICT" duration-ms="2554" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:48 ICT" name="setUp" finished-at="2026-03-02T22:52:50 ICT" duration-ms="2212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC04_EmptyPhone()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:21 ICT" name="TC04_EmptyPhone" finished-at="2026-03-02T19:50:27 ICT" duration-ms="5996" status="PASS">
+        <test-method signature="TC04_EmptyPhone()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:50 ICT" name="TC04_EmptyPhone" finished-at="2026-03-02T22:52:56 ICT" duration-ms="6012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04_EmptyPhone -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:27 ICT" name="tearDown" finished-at="2026-03-02T19:50:27 ICT" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:56 ICT" name="tearDown" finished-at="2026-03-02T22:52:57 ICT" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:27 ICT" name="setUp" finished-at="2026-03-02T19:50:29 ICT" duration-ms="2013" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:52:57 ICT" name="setUp" finished-at="2026-03-02T22:53:00 ICT" duration-ms="2928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC05_SpecialCharacters()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:29 ICT" name="TC05_SpecialCharacters" finished-at="2026-03-02T19:50:35 ICT" duration-ms="5460" status="PASS">
+        <test-method signature="TC05_SpecialCharacters()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:53:00 ICT" name="TC05_SpecialCharacters" finished-at="2026-03-02T22:53:05 ICT" duration-ms="5245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05_SpecialCharacters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T19:50:35 ICT" name="tearDown" finished-at="2026-03-02T19:50:35 ICT" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testj4.dienmayxanhlogintest@23348b5d]" started-at="2026-03-02T22:53:05 ICT" name="tearDown" finished-at="2026-03-02T22:53:05 ICT" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
