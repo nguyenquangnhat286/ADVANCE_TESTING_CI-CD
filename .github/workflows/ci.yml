@@ -12,4 +12,4 @@ jobs:
         distribution: 'temurin'
     - name: Run Tests
       # Chạy đúng file test Điện Máy Xanh của Nhật
-      run: mvn test -Dtest=testj4.dienmayxanhlogintest
+      run: mvn test -Dtest=testj4.DienMayXanhLoginTest
