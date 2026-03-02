@@ -1,31 +1,33 @@
 name: Java CD Release
 
 on:
-  push:
-    tags:
-      - 'v*'
+  workflow_run:
+    workflows: ["Java CI with Maven"] # Chạy CD sau khi CI (tích xanh) thành công
+    types:
+      - completed
 
 jobs:
-  build-release:
+  deploy:
     runs-on: ubuntu-latest
-
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
     steps:
-      - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-      - name: Set up JDK
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
 
-      - name: Build with Maven
-        run: mvn clean package -DskipTests
+    - name: Build with Maven (Package)
+      # Lệnh này sẽ tạo ra file .war hoặc .jar trong thư mục target
+      run: mvn clean package -DskipTests
 
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            target/*.jar
-            target/original-*.jar
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Upload Build Artifact
+      # Lưu lại sản phẩm để bạn có thể tải về từ GitHub
+      uses: actions/upload-artifact@v4
+      with:
+        name: ASM4-Package
+        path: target/*.war # Hoặc *.jar tùy cấu hình pom.xml của bạn
